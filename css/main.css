@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -521,6 +521,137 @@ footer .copyright {
 
    /* Tablet Styles */
 @media only screen and (min-width: 768px) {
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+  header {
+    justify-content: space-around;
+    padding: 33px 0;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
+  }
+  
+  .header-divider {
+    display: none;
+  }
+
+  header nav {
+    width: 20%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+}
+
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+  }
+
+  aside .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    flex-flow: row wrap;
+  }
+
+  aside .content-wrapper .form-description, aside .content-wrapper .form {
+    width: 40%;
+    margin: 0;
+  }
+
+  .features h2 {
+    margin-bottom: 20px;
+  }
+
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+}
+
+.features i {
+  margin-bottom: 30px;
+}
+
+.features .features-item-description {
+  width: 62%;
+}
+
+.reviews h2 {
+  width: 85%;
+}
+
+.reviews article {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.reviews article figure, .reviews article div {
+  width: 49%;
+}
+
+.reviews h3 {
+  width: 75%;
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 65%;
+  margin: 100px 0;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
+
+
+
+
 
 }
 
