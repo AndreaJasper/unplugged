@@ -179,13 +179,13 @@ header figure {
 
 header nav {
   width: 60%;
-  font-size: 1.125em;
-  font-weight: 700;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 header nav ul {
@@ -371,6 +371,10 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.faq-content {
+  margin-bottom: 50px;
+}
+
 .faq h2 {
   margin-bottom: 40px;
   line-height: 1;
@@ -530,7 +534,7 @@ footer .copyright {
 
    /* Tablet Styles */
 @media only screen and (min-width: 768px) {
-
+/* Global Styles */
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
@@ -540,11 +544,6 @@ footer .copyright {
     font-size: 1.5em;
     line-height: 1.25;
   }
-
-  footer h4 {
-    font-size: 1.5em;
-    margin-bottom: 40px;
-}
 
   header {
     justify-content: space-around;
@@ -571,6 +570,8 @@ footer .copyright {
   header nav ul {
     justify-content: space-between;
 }
+
+/* Homepage Styles */
 
   .hero-area {
     min-height: 600px;
@@ -637,45 +638,17 @@ footer .copyright {
   margin: 0;
 }
 
-footer .content-wrapper {
-  width: 65%;
-  margin: 100px 0;
-}
-
-footer .footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-
-footer .contact {
-  margin-bottom: 0;
-}
-
-footer .social-icons {
-  width: 12.5em;
-  justify-content: space-between;
-}
+/* FAQ Styles */
 
 .faq .content-wrapper {
   justify-content: space-between;
-  margin: 50px;
-}
-
-.faq h2 {
-  width: 100%;
 }
 
 .faq-content {
   flex-basis: 45%;
-  margin-top: 50px;
 }
 
-.faq h4, .faq p {
-  font-size: .875em;
-  line-height: 1.125;
-}
+/* About Styles */
 
 .mission-content {
   display: flex;
@@ -692,10 +665,9 @@ footer .social-icons {
   padding-bottom: 45.5%;
 }
 
-.contact-section h2 {
+.contact-section .content-wrapper h2 {
   width: 80%;
 }
-
 
 .contact-content {
   display: flex;
@@ -707,8 +679,19 @@ footer .social-icons {
   font-size: 1.5em;
 }
 
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
 
+  footer .contact {
+    margin-bottom: 0;
+  }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
 
 
 }
@@ -716,6 +699,94 @@ footer .social-icons {
 
 /* Desktop Styles */
 @media only screen and (min-width: 1200px) {
+/* Global Styles */
+  h3, h4 {
+    font-size: 1.875em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.333;
+}
+
+  header {
+    padding: 15px 0;
+  }
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+ /* Homepage Styles */
+  .hero-area h1 {
+    font-size: 3.75em;
+    width: 80%;
+  }
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description, aside .content-wrapper .form {
+    width: 30%
+  }
+
+  .form-description p {
+    font-size: 1.125em;
+  }
+
+
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  .reviews h2 {
+    margin-bottom: 100px;
+  }
+
+/* FAQ Styles */
+
+
+.faq .content-wrapper {
+  margin-top: 50px;
+}
+
+.faq h2 {
+  width: 100%;
+  font-size: 3em;
+
+}
+
+.faq h4, .faq p {
+  font-size: 1.125em;
+  line-height: 1;
+}
+
+.faq h4, .faq p {
+  font-size: 1.125em;
+  line-height: 1;
+}
+
+/* About Styles */
+.mission h2, .contact-section .content-wrapper h2 {
+  width: 95%;
+  font-size: 3em;
+}
+
+.map figure {
+    padding-bottom: 37.5%;
+}
+
+/* Footer Styles */
+
+footer h4 {
+  font-size: 1.875em;
+}
+
 
 }
 
