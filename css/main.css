@@ -250,18 +250,6 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-main .form-description {
-
-}
-
-main .form {
-
-}
-
-main form {
-
-}
-
 /* Features Styles */
 .features {
   background: url(../img/unplugged-retreat.jpg);
@@ -270,10 +258,6 @@ main form {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-}
-
-.features .content-wrapper {
-
 }
 
 .features h2 {
@@ -313,10 +297,6 @@ main form {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
-}
-
-.reviews figure {
-
 }
 
 /* -------------------- About Page Styles ---------------------------*/
@@ -395,13 +375,7 @@ main form {
 
 
 /* -------------------- Mobile Styles - Homepage ---------------------------*/
-.hero-area {
 
-}
-
-aside {
-
-}
 
 /* -------------------- Mobile Styles - About Page ---------------------------*/
 
@@ -545,15 +519,15 @@ footer .copyright {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+   /* Tablet Styles */
+@media only screen and (min-width: 768px) {
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+
+/* Desktop Styles */
+@media only screen and (min-width: 1200px) {
+
 }
 
 /* ==========================================================================
