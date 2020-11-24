@@ -346,6 +346,7 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+
 /* -------------------- FAQ Page Styles ---------------------------*/
 
 .faq {
@@ -677,22 +678,6 @@ footer .copyright {
 .contact-content h4 {
   font-size: 1.5em;
 }
-
-
-
-/* Footer Styles */
-
-  footer .content-wrapper {
-    width: 65%;
-    margin: 100px 0;
-  }
-
-  footer .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-  }
 
   footer h4 {
     font-size: 1.5em;
